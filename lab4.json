@@ -1,0 +1,48 @@
+{
+    "songbook":[
+    	{
+        	"track": "Don't Look Back in Anger",
+	        "artist": "Oasis",
+	    	"album":"(What's the Story) Morning Glory?",
+	    	"year":"1996",
+	    	"genre":"Britpop",
+            "site":"oasisinet.com",
+    		"artistURL":"http://www.oasisinet.com/",
+            "cover":"./images/Oasis_Cover.jpg",
+            "fave":true
+    	},
+    	{
+    		"track": "Super Rich Kids",
+	        "artist": "Frank Ocean",
+	    	"album":"Channel Orange",
+	    	"year":"2012",
+	    	"genre":"R&B",
+            "site":"Frank Ocean",
+    		"artistURL":"http://boysdontcry.co/",
+            "cover":"./images/Frank_Ocean_Cover.jpg",
+            "fave":false
+    	},
+    	{
+    		"track": "Face to Face",
+	        "artist": "Daft Punk",
+	    	"album":"Discovery",
+	    	"year":"2003",
+	    	"genre":"French house",
+            "site":"daftpunk.com",
+    		"artistURL":"http://www.daftpunk.com/",
+            "cover":"./images/Daft_Punk_Cover.jpg",
+            "fave":false
+    	},
+    	{
+    		"track": "People Got A Lotta Nerve",
+	        "artist": "Neko Case",
+	    	"album":"Middle Cyclone",
+	    	"year":"2009",
+	    	"genre":"Indie folk",
+            "site":"nekocase",
+    		"artistURL":"http://nekocase.com/",
+            "cover":"./images/Neko_Case_Cover.jpg",
+            "fave":false
+    	}
+    ]
+}
