@@ -1,0 +1,127 @@
+html, body {
+	margin:0;
+	padding:1px;
+}
+
+.center{
+	margin: auto;
+	width: 90%;
+}
+
+#songs {
+	margin: auto;
+	width: 90%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 20px;
+	overflow: auto;
+}
+
+#songs ul{
+	display: inline;
+	float: left;
+}
+
+#songs ul:not(#genres) li{
+	list-style-type: none;
+}
+
+#cellHeads{
+	clear: both;
+	width: 100%;
+	padding: 0px;
+	padding-top: 50px;
+}
+
+#cellHeads li{
+	display: inline;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+ul:not(#covers):not(#cellHeads) li{
+	padding-top: 80px;
+	padding-bottom: 90px;
+	padding-left: 10px;
+}
+
+#cellHeads li:first-child{
+	padding-left: 50px;
+}
+
+#cellHeads li:nth-child(2){
+	padding-left: 300px;
+}
+
+#cellHeads li:nth-child(3){
+	padding-left: 200px;
+}
+
+#cellHeads li:nth-child(4){
+	padding-left: 150px;
+}
+
+#cellHeads li:nth-child(5){
+	padding-left: 125px;
+}
+
+#cellHeads li:nth-child(6){
+	padding-left: 125px;
+}
+
+#cellHeads li:nth-child(7){
+	padding-left: 175px;
+}
+
+#covers li{
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+#covers img{
+	width: 150px;
+	padding-left: 75px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#songNames li{
+	font-variant:small-caps;
+	padding-top: 300px;
+}
+
+#artists{
+	font-weight:bold;
+	padding-left: 150px;
+}
+
+#albumNames{
+	font-style:italic;
+	padding-left: 125px;
+}
+
+#genres{
+	list-style-type: disk;
+	padding-left:185px;
+}
+
+#webSites{
+	padding-left: 75px;
+}
+
+#releaseDate li{
+	font-size: 90%;
+	height: 20px;
+}
+
+#genres li{
+	font-size: 80%;
+	height: 20px;
+}
+
+.favorite{
+	color: green;
+}
